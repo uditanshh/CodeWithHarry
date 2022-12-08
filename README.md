@@ -1,2 +1,2 @@
 # CodeWithHarry
-WebDev practice repoository.
+WebDev practice reoository.
