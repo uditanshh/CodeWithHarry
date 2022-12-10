@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMS</title>
+</head>
+<body>
+    <h2>This is HTML Forms tutorial.</h2>
+    <form action="backendfile.py">
+        <div>
+            <label for="Name">Name:</label>
+            <input type="text" name="myName" id="Name">
+        </div>
+        <br>
+        <div>
+            <label for="Eligibility">Are You Eligibile?</label>
+            <input type="checkbox" name="myEligibility" id="Eligibility">
+        </div>
+        <br>
+        <div>
+            <label for="Gender">Gender:</label>
+            <input type="radio" name="myGender" id="Gender">
+        </div>
+        <br>
+        <div>
+            <label for="Phone">Phone:</label>
+            <input type="number" name="myPhone" id="Phone">
+        </div>
+        <br>
+        <div>
+            <label for="Email">Email:</label>
+            <input type="email" name="myEmail" id="Email">
+        </div>
+        <div>
+            <label for="About">About:</label><br>
+            <textarea name="myAbout" id="About" cols="20" rows="20">Describe yourself</textarea>
+        </div>
+        <br>
+        <div>
+            <label for="Submit">Submit Now</label>
+            <input type="submit" name="Submit Now">
+        </div>
+        <br>
+        <div>
+            <label for="Reset">Reset Now</label>
+            <input type="reset" name="Reset Now">
+        </div>
+        <div>
+            <label for="Car">Car</label>
+            <select name="Car" id="Car">
+                <option value="Indica" selected>Indica</option>
+                <option value="Swift">Swift</option>
+                <option value="Dzire">Dzire</option>
+            </select>       
+         </div>
+    </form>
+</body>
+</html>
